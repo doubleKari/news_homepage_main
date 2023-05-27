@@ -8,7 +8,7 @@ const items = navItems.map((item) => {
 
 const MobileNav = ({ action }) => {
   return (
-    <div className="sm:hidden absolute top-0 right-0 w-full h-full backdrop-sepia-0 bg-slate-950/30">
+    <div className="md:hidden absolute top-0 right-0 w-full h-full backdrop-sepia-0 bg-slate-950/30">
       <div className="z-80 bg-white font-bold sticky top-0 left-full h-screen w-2/3 pt-8 md:hidden">
         <img
           src={close}
@@ -26,9 +26,3 @@ const MobileNav = ({ action }) => {
 };
 
 export default MobileNav;
-
-/*
-  <div className="absolute top-0 right-0 w-full h-screen bg-red-600">
-  </div>
-
-*/
